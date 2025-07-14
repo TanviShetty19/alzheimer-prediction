@@ -1,0 +1,23 @@
+# Ignore virtual environment
+env_alz/
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+
+
+# Ignore model files
+*.h5
+*.pt
+*.pkl
+*.ckpt
+
+# Ignore logs and reports
+*.log
+reports/figures/
+
+# Ignore large data
+data/
